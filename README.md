@@ -1,4 +1,4 @@
-# QA Automation Challenge – Rubeus
+# QA Automation  – Rubeus
 
 ## 📌 Sobre o projeto
 
@@ -36,14 +36,16 @@ Os testes automatizados simulam o comportamento real de navegação do usuário.
 
 # 📂 Estrutura do projeto
 
-qa-rubeus-test/
- ├─ cypress/
- │   ├─ e2e/
+QA-RUBEUS-TEST
+ ├─ cypress
+ │   ├─ e2e
  │   │   └─ rubeu.cy.js
- │   ├─ fixtures/
- │   └─ support/
+ │   ├─ fixtures
+ │   │   └─ example.json
+ │   └─ support
+ │       ├─ commands.js
+ │       └─ e2e.js
  ├─ cypress.config.js
- ├─ package.json
  └─ README.md
 
 ---
@@ -132,7 +134,7 @@ Padronizar comportamento de links externos para melhorar a experiência do usuá
 
 ## Clonar o repositório
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/anairenyb-rgb/qa-rubeus-test
 
 ---
 
